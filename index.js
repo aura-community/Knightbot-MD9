@@ -64,7 +64,7 @@ const store = {
     }
 }
 
-global.botname = "KNIGHT BOT"
+global.botname = "IM AURA"
 global.themeemoji = "•"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
@@ -165,7 +165,7 @@ async function startXeonBotInc() {
         if (connection == "open") {
             console.log(chalk.yellow(`🌿 Connected as => ${JSON.stringify(XeonBotInc.user, null, 2)}`))
             await XeonBotInc.sendMessage(XeonBotInc.user.id, {
-                text: `🤖 Knight Bot Online!`,
+                text: `🤖 AURALLY Bot Online!`,
             })
         }
         if (
