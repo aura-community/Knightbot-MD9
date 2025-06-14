@@ -99,7 +99,7 @@ const imagineCommand = require('./commands/imagine');
 global.packname = settings.packname;
 global.author = settings.author;
 global.channelLink = "https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A";
-global.ytch = "Mr Unique Hacker";
+global.ytch = "KALI LINUX";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
@@ -108,7 +108,7 @@ const channelInfo = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363161513685998@newsletter',
-            newsletterName: 'KnightBot MD',
+            newsletterName: 'IM AURA',
             serverMessageId: -1
         }
     }
@@ -240,7 +240,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
             // Check if message is from owner (fromMe) or bot itself
             if (!message.key.fromMe) {
                 await sock.sendMessage(chatId, {
-                    text: '❌ This command is only available for the owner!',
+                    text: '❌ This command is only available for ADMINISTRATOR!',
                     ...channelInfo
                 });
                 return;
@@ -412,7 +412,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 if (city) {
                     await weatherCommand(sock, chatId, city);
                 } else {
-                    await sock.sendMessage(chatId, { text: 'Please specify a city, e.g., .weather London', ...channelInfo });
+                    await sock.sendMessage(chatId, { text: 'Please specify a city, e.g., .weather Ruiru', ...channelInfo });
                 }
                 break;
             case userMessage === '.news':
