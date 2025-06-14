@@ -98,7 +98,7 @@ const imagineCommand = require('./commands/imagine');
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A";
+global.channelLink = "https://github.com/aura7822/bot-experimental";
 global.ytch = "KALI LINUX";
 
 // Add this near the top of main.js with other global configurations
